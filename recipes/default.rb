@@ -29,7 +29,7 @@
       # gpgcheck node['yum'][repo]['gpgcheck']
       # gpgkey node['yum'][repo]['gpgkey']
       enabled node['yum'][repo]['enabled']
-      cost node['yum'][repo]['cost']
+      # cost node['yum'][repo]['cost']
       exclude node['yum'][repo]['exclude']
       enablegroups node['yum'][repo]['enablegroups']
       failovermethod node['yum'][repo]['failovermethod']
