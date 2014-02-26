@@ -33,7 +33,7 @@
       exclude node['yum'][repo]['exclude']
       # enablegroups node['yum'][repo]['enablegroups']
       failovermethod node['yum'][repo]['failovermethod']
-      http_caching node['yum'][repo]['http_caching']
+      # http_caching node['yum'][repo]['http_caching']
       include_config node['yum'][repo]['include_config']
       includepkgs node['yum'][repo]['includepkgs']
       keepalive node['yum'][repo]['keepalive']
