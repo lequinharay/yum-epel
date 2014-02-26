@@ -45,7 +45,7 @@
       proxy_username node['yum'][repo]['proxy_username']
       proxy_password node['yum'][repo]['proxy_password']
       # repositoryid node['yum'][repo]['repositoryid']
-      sslcacert node['yum'][repo]['sslcacert']
+      # sslcacert node['yum'][repo]['sslcacert']
       sslclientcert node['yum'][repo]['sslclientcert']
       sslclientkey node['yum'][repo]['sslclientkey']
       sslverify node['yum'][repo]['sslverify']
