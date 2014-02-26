@@ -37,7 +37,7 @@
       # include_config node['yum'][repo]['include_config']
       includepkgs node['yum'][repo]['includepkgs']
       # keepalive node['yum'][repo]['keepalive']
-      max_retries node['yum'][repo]['max_retries']
+      # max_retries node['yum'][repo]['max_retries']
       metadata_expire node['yum'][repo]['metadata_expire']
       mirror_expire node['yum'][repo]['mirror_expire']
       priority node['yum'][repo]['priority']
