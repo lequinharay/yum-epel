@@ -26,7 +26,7 @@
       description node['yum'][repo]['description']
       # baseurl node['yum'][repo]['baseurl']
       mirrorlist node['yum'][repo]['mirrorlist']
-      gpgcheck node['yum'][repo]['gpgcheck']
+      # gpgcheck node['yum'][repo]['gpgcheck']
       gpgkey node['yum'][repo]['gpgkey']
       enabled node['yum'][repo]['enabled']
       cost node['yum'][repo]['cost']
