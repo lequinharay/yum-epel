@@ -27,7 +27,7 @@
       # baseurl node['yum'][repo]['baseurl']
       mirrorlist node['yum'][repo]['mirrorlist']
       # gpgcheck node['yum'][repo]['gpgcheck']
-      gpgkey node['yum'][repo]['gpgkey']
+      # gpgkey node['yum'][repo]['gpgkey']
       enabled node['yum'][repo]['enabled']
       cost node['yum'][repo]['cost']
       exclude node['yum'][repo]['exclude']
