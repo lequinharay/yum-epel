@@ -34,7 +34,7 @@
       # enablegroups node['yum'][repo]['enablegroups']
       failovermethod node['yum'][repo]['failovermethod']
       # http_caching node['yum'][repo]['http_caching']
-      include_config node['yum'][repo]['include_config']
+      # include_config node['yum'][repo]['include_config']
       includepkgs node['yum'][repo]['includepkgs']
       keepalive node['yum'][repo]['keepalive']
       max_retries node['yum'][repo]['max_retries']
