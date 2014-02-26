@@ -49,7 +49,7 @@
       # sslclientcert node['yum'][repo]['sslclientcert']
       # sslclientkey node['yum'][repo]['sslclientkey']
       # sslverify node['yum'][repo]['sslverify']
-      timeout node['yum'][repo]['timeout']
+      # timeout node['yum'][repo]['timeout']
       action :create
     end
   end
