@@ -47,7 +47,7 @@
       # repositoryid node['yum'][repo]['repositoryid']
       # sslcacert node['yum'][repo]['sslcacert']
       # sslclientcert node['yum'][repo]['sslclientcert']
-      sslclientkey node['yum'][repo]['sslclientkey']
+      # sslclientkey node['yum'][repo]['sslclientkey']
       sslverify node['yum'][repo]['sslverify']
       timeout node['yum'][repo]['timeout']
       action :create
