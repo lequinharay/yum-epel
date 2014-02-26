@@ -39,7 +39,7 @@
       # keepalive node['yum'][repo]['keepalive']
       # max_retries node['yum'][repo]['max_retries']
       metadata_expire node['yum'][repo]['metadata_expire']
-      mirror_expire node['yum'][repo]['mirror_expire']
+      # mirror_expire node['yum'][repo]['mirror_expire']
       priority node['yum'][repo]['priority']
       proxy node['yum'][repo]['proxy']
       proxy_username node['yum'][repo]['proxy_username']
